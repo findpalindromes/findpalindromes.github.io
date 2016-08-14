@@ -1,0 +1,19 @@
+.palDivs{
+    background-color: #66a3ff;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    padding-left: 1%;
+    width: 50%;
+    margin: 1%;
+    font-family: Trebuchet MS;
+    color: white;
+    font-size: 20px;
+}
+
+#startPosDivs{
+    margin-top: 2%;
+}
+
+.posDivs{
+    margin-left: 3%;
+}
