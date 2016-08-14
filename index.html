@@ -1,1 +1,27 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <script type="text/javascript" src="palindrome.js"></script>
+        <link rel="stylesheet" type="text/css" href="palindrome.css">
+    </head>
+    <body>
+        
+        <div class="w3-container w3-green w3-card-2">
+        <h1>Palindrome Identifier</h1>
+        </div> <br>
+        
+        <form name = "findPalindrome" class="w3-container"> 
+            <label> DNA Strand: </label>
+            <input type = "text" name ="dnaStrand" class="w3-input" /> <br>
+            
+            <input type = "button" value="Submit" class="w3-btn w3-white w3-border w3-border-teal w3-round-xlarge w3-hover-teal" onclick = "findPals()"/> <br> <br>
+            <div id = "dnaStrand"> </div>
+            <label> Palindromes: </label>
+            <label id = "palindromes"> </label>
+        </form>
+                           
+    
+    </body>
+
+</html>
